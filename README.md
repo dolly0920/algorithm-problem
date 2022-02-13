@@ -1,7 +1,5 @@
 # Algorithm
 
-----
-
 ## Leetcode
 
 ## Baekjoon
