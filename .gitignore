@@ -24,3 +24,5 @@ hs_err_pid*
 
 # custom
 .idea
+/out/
+.DS_Store
