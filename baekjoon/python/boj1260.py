@@ -3,8 +3,9 @@ from collections import deque
 
 sys.stdin = open("input.txt", "rt")
 
+
 def dfs(point, n, path, visited):
-    print(point + 1, end = ' ')
+    print(point + 1, end=' ')
     for i in range(n):
         if path[point][i] == 1 and visited[i] == 0:
             visited[i] = 1
@@ -20,7 +21,7 @@ def bfs(point, n, path):
 
     while q:
         current = q.popleft()
-        print(current + 1, end = ' ')
+        print(current + 1, end=' ')
         for i in range(n):
             if path[current][i] == 1 and visited[i] == 0:
                 visited[i] = 1
@@ -37,6 +38,6 @@ if __name__ == "__main__":
         path[a - 1][b - 1] = 1
         path[b - 1][a - 1] = 1
     visited[V - 1] = 1
-    dfs(V-1, N, path, visited)
+    dfs(V - 1, N, path, visited)
     print()
     bfs(V - 1, N, path)
