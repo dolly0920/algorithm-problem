@@ -1,8 +1,9 @@
-package programmers.java;
+package programmers.java.programmers220713;
 
 import java.util.*;
 
-public class programmers220713 {
+// https://school.programmers.co.kr/learn/courses/30/lessons/92334
+public class programmers1 {
 
     class Solution {
         public int[] solution(String[] id_list, String[] report, int k) {
