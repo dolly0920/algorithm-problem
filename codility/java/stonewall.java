@@ -2,6 +2,7 @@ package codility.java;
 
 import java.util.*;
 
+// https://app.codility.com/c/run/training2BS3M6-WCF/
 public class stonewall {
     class Solution {
         public int solution(int[] H) {
