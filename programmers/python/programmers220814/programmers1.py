@@ -1,3 +1,4 @@
+// https://school.programmers.co.kr/learn/courses/30/lessons/77485
 def solution(rows, columns, queries):
     arr = [[row*columns + col + 1 for col in range (columns)] for row in range (rows)]
     answer = []
