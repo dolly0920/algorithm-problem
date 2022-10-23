@@ -4,6 +4,7 @@ import heapq
 
 sys.stdin = open("../input.txt", "rt")
 
+## https://school.programmers.co.kr/learn/courses/30/lessons/42579
 def solution(genres, plays):
     answer = []
 
